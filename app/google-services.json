@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542273051081",
+    "project_id": "drp-and-experiment",
+    "storage_bucket": "drp-and-experiment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542273051081:android:3dd33c277eeabfdbfe3018",
+        "android_client_info": {
+          "package_name": "com.drp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542273051081-jo3li9aa3ifkohonn8bhfo4311s5jl8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbGbF7bFsdKluXb5My4H8UtGKkBzQH4fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542273051081-jo3li9aa3ifkohonn8bhfo4311s5jl8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

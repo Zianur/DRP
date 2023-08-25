@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe259"
+    tools:context=".DrpWork">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <EditText
+          android:id="@+id/pregnanciesId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:hint="Enter your Pregnancies   0 - 17"
+          android:inputType="text"
+          android:padding="20dp"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:textColorHint="@color/black" />
+
+      <EditText
+          android:id="@+id/glucoseId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="25dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginEnd="25dp"
+          android:hint="Enter your Glucose   0 - 199"
+          android:inputType="text"
+          android:padding="20dp"
+          android:textColorHint="@color/black" />
+
+      <EditText
+          android:id="@+id/BPId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:hint="Enter your BloodPressure   0 - 122"
+          android:inputType="text"
+          android:padding="20dp"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:textColorHint="@color/black" />
+
+
+      <EditText
+          android:id="@+id/STId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="25dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginEnd="25dp"
+          android:hint="Enter your Skin Thickness   0 - 99"
+          android:inputType="text"
+          android:padding="20dp"
+          android:textColorHint="@color/black" />
+
+
+      <EditText
+          android:id="@+id/insulinId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:hint="Enter your Insulin   0 - 846"
+          android:inputType="text"
+          android:padding="20dp"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:textColorHint="@color/black" />
+
+      <EditText
+          android:id="@+id/BMIId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:hint="Enter your BMI   0 - 67.1"
+          android:inputType="text"
+          android:padding="20dp"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:textColorHint="@color/black" />
+
+
+      <EditText
+          android:id="@+id/DPFId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:hint="Diabetes Pedigree Function  0.07 - 2.42"
+          android:inputType="text"
+          android:padding="10dp"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:textColorHint="@color/black" />
+
+
+
+      <EditText
+          android:id="@+id/ageId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:hint="Enter your Age   21 - 81"
+          android:inputType="text"
+          android:padding="20dp"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:textColorHint="@color/black" />
+
+
+
+
+      <EditText
+          android:id="@+id/resultId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="25dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginEnd="25dp"
+          android:hint="Enter your Diabetes Result   0 - 1"
+          android:inputType="text"
+          android:padding="20dp"
+          android:textColorHint="@color/black" />
+
+      <TextView
+          android:id="@+id/calculateButtonId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="25dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginEnd="25dp"
+          android:background="@drawable/button_style"
+          android:gravity="center"
+          android:padding="17dp"
+          android:text="Calculate"
+          android:textAllCaps="true"
+          android:textColor="@color/white"
+          android:textStyle="bold" />
+
+
+      <TextView
+          android:id="@+id/shareDataButtonId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="25dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="25dp"
+          android:layout_marginBottom="20dp"
+          android:background="@drawable/button_style"
+          android:gravity="center"
+          android:padding="17dp"
+          android:text="Share Data"
+          android:textAllCaps="true"
+          android:textColor="@color/white"
+          android:textStyle="bold" />
+
+      <LinearLayout
+          android:id="@+id/outputLinearLayoutId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/white"
+          android:orientation="vertical"
+          android:layout_margin="10dp"
+          >
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:padding="15dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:text="Output"
+              android:textColor="#D51515" />
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#D51515"
+              ></View>
+
+
+          <EditText
+              android:id="@+id/outputId"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:padding="15dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:text="Output"
+              android:textColor="@color/black" />
+
+
+
+
+
+
+
+      </LinearLayout>
+
+  </LinearLayout>
+
+</ScrollView>

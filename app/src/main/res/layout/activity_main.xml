@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe259"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/contributeId"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:text="Contribute in the research"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="17dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/calculateButtonMainId"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:text="Measure"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/logoutButtonId"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button_style"
+        android:text="Log Out"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="17dp"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>
