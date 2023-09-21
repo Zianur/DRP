@@ -63,7 +63,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:background="@drawable/button_style"
-        android:text="Log in"
+        android:text="Sign Up"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:padding="17dp"
